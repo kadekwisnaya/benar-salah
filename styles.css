@@ -1,0 +1,193 @@
+/* Gaya global */
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4a4a4a;
+}
+
+/* Gaya heading */
+h1 {
+    color: #252323;
+    font-family: 'times new roman', cursive;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Gaya daftar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+li:before {
+    content: '•';
+    color: #0a0a0a;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Gaya tombol */
+button {
+    background-color: #d9534f;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    margin: 20px auto;  /* Menengahkan tombol */
+    display: block;  /* Pastikan tombol adalah elemen blok */
+    width: fit-content;  /* Sesuaikan lebar tombol */
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Gaya link */
+a {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c9302c;
+}
+
+/* Gaya gambar */
+.image {
+    width: 75%; /* Gambar akan menyesuaikan lebar kontainer */
+    max-width: 75%;
+    height: auto; /* Menghindari gambar terlalu besar */
+    border-radius: 15px;
+    margin-bottom: 25px;
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar kontainer */
+}
+
+/* Gaya kontainer */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Menengahkan isi dalam kontainer */
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    margin: auto; /* Memastikan kontainer berada di tengah halaman */
+}
+
+/* Gaya daftar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; /* Menengahkan link di dalam list */
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+li:before {
+    content: '•';
+    color: #0a0a0a;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Gaya teks link */
+.text-link {
+    text-align: center; /* Menengahkan teks link */
+    font-size: 16px;
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-top: 20px; /* Jarak antara teks dan tombol */
+    display: block; /* Pastikan teks adalah elemen blok */
+}
+
+.text-link:hover {
+    color: #c9302c;
+}
+
+/* Gaya video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#backgroundVideo {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
